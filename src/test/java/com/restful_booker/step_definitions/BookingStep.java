@@ -80,7 +80,6 @@ public class BookingStep {
 
         // status code is : 418  with "I'm a teapot"  ----> This code is returned by teapots that receive requests to brew coffee
         Assert.assertEquals(418,response.statusCode());
-
     }
 
     @Then("status code should be {int}")
